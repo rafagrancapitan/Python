@@ -6,6 +6,7 @@ Descripción:    Indica si un número es perfecto
 
 """
 
+
 def es_perfecto(numero): 
     suma_divisores = 1
     divisor = 2

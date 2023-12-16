@@ -6,6 +6,8 @@ Descripción:    Indica si un número es perfecto
 
 Git:
 		Primera línea
+		Segunda línea
+		Tercera línea
 """
 
 def es_perfecto(numero): 

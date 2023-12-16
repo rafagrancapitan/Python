@@ -4,6 +4,8 @@ Descripción:    Indica si un número es perfecto
                 Un número entero positivo es perfecto si
                 es igual a la suma de sus divisores
 
+Git:
+		Primera línea
 """
 
 def es_perfecto(numero): 

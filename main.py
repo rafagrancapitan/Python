@@ -9,6 +9,8 @@ Git:
 		Segunda línea
 		Tercera línea
 		Quinta línea
+		Sexta línea
+		Séptima línea
 """
 
 def es_perfecto(numero): 

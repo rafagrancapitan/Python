@@ -4,10 +4,8 @@ Descripción:    Indica si un número es perfecto
                 Un número entero positivo es perfecto si
                 es igual a la suma de sus divisores
 
-                Línea añadida para probar git reset
-                Línea añadida para probar git reset
                 Línea añadida para probar git reset --mixed HEAD - 
-                Línea añadida para probar git reset --soft
+
 """
 
 def es_perfecto(numero): 
@@ -41,15 +39,11 @@ def main():
         else:
             print(f"El número {numero} NO ES perfecto")
 
-        # Ya está calculado el número perfecto
 
     # Fin del bucle while
 
-
-def es_negativo(n) -> bool:
-    # Añado comentario y lo modifico
-    return True if n < 0 else False
-
+def es_positivo(n) -> bool:
+	return n > 0
 
 if __name__ == '__main__':
     main()

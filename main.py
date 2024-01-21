@@ -9,22 +9,6 @@ Descripción:    Indica si un número es perfecto
                 Línea añadida para probar git reset --mixed HEAD - 
                 Línea añadida para probar git reset --soft
 """
-
-def es_perfecto(numero): 
-    suma_divisores = 1
-    divisor = 2
-    while divisor < numero / 2:
-        if numero % divisor == 0:
-            suma_divisores += divisor
-        divisor = divisor + 1
-
-    # Fin del bucle while
-    
-    numero_perfecto = suma_divisores == numero
-    return numero_perfecto
-
-# Fin de la función es_perfecto
-
 def main():
 
     while True:
@@ -41,15 +25,8 @@ def main():
         else:
             print(f"El número {numero} NO ES perfecto")
 
-        # Ya está calculado el número perfecto
 
     # Fin del bucle while
-
-
-def es_negativo(n) -> bool:
-    # Añado comentario y lo modifico
-    return True if n < 0 else False
-
-
+            
 if __name__ == '__main__':
     main()

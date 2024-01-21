@@ -21,24 +21,12 @@ def es_perfecto(numero):
 
 # Fin de la función es_perfecto
 
-def main():
 
-    while True:
-        print("Cálculo de un número perfecto")
-        print("-----------------------------")
+def es_negativo(n) -> bool:
+    # Añado comentario y lo modifico
+    return True if n < 0 else False
 
-        numero = int(input("Introduce un número (0 para terminar): "))
-
-        if numero == 0:
-            break
-
-        if es_perfecto(numero):
-            print(f"El número {numero} ES perfecto")
-        else:
-            print(f"El número {numero} NO ES perfecto")
+def es_positivo(n) -> bool:
+    return True if n > 0 else False
 
 
-    # Fin del bucle while
-
-if __name__ == '__main__':
-    main()

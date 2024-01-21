@@ -40,8 +40,5 @@ def main():
 
     # Fin del bucle while
 
-def es_positivo(n) -> bool:
-	return n > 0
-
 if __name__ == '__main__':
     main()

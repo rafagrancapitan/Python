@@ -4,8 +4,6 @@ Descripción:    Indica si un número es perfecto
                 Un número entero positivo es perfecto si
                 es igual a la suma de sus divisores
 
-                Línea añadida para probar git reset --mixed HEAD - 
-
 """
 
 def es_perfecto(numero): 
